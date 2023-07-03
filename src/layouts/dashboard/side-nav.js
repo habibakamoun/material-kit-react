@@ -130,7 +130,7 @@ export const SideNav = (props) => {
             py: 3
           }}
         >
-          <Typography
+          {/*<Typography
             color="neutral.100"
             variant="subtitle2"
           >
@@ -172,7 +172,7 @@ export const SideNav = (props) => {
             variant="contained"
           >
             Pro Live Preview
-          </Button>
+          </Button>*/}
         </Box>
       </Box>
     </Scrollbar>

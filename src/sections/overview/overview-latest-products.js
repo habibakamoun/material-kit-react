@@ -22,7 +22,7 @@ export const OverviewLatestProducts = (props) => {
 
   return (
     <Card sx={sx}>
-      <CardHeader title="Latest Products" />
+      <CardHeader title="Same Category Product" />
       <List>
         {products.map((product, index) => {
           const hasDivider = index < products.length - 1;
@@ -76,7 +76,7 @@ export const OverviewLatestProducts = (props) => {
       </List>
       <Divider />
       <CardActions sx={{ justifyContent: 'flex-end' }}>
-        <Button
+        {/* <Button
           color="inherit"
           endIcon={(
             <SvgIcon fontSize="small">
@@ -87,7 +87,7 @@ export const OverviewLatestProducts = (props) => {
           variant="text"
         >
           View all
-        </Button>
+        </Button> */}
       </CardActions>
     </Card>
   );

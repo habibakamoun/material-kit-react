@@ -17,7 +17,7 @@ const Page = () => (
   <>
     <Head>
       <title>
-        Overview | Devias Kit
+        WiseVision Website
       </title>
     </Head>
     <Box
@@ -115,31 +115,31 @@ const Page = () => (
                 {
                   id: '5ece2c077e39da27658aa8a9',
                   image: '/assets/products/product-1.png',
-                  name: 'Healthcare Erbology',
+                  name: 'Shampoing Sunsilk',
                   updatedAt: subHours(now, 6).getTime()
                 },
                 {
                   id: '5ece2c0d16f70bff2cf86cd8',
                   image: '/assets/products/product-2.png',
-                  name: 'Makeup Lancome Rouge',
+                  name: 'Shampoing FA',
                   updatedAt: subDays(subHours(now, 8), 2).getTime()
                 },
                 {
                   id: 'b393ce1b09c1254c3a92c827',
                   image: '/assets/products/product-5.png',
-                  name: 'Skincare Soja CO',
+                  name: 'Après-Shampoing Palmolive',
                   updatedAt: subDays(subHours(now, 1), 1).getTime()
                 },
                 {
                   id: 'a6ede15670da63f49f752c89',
                   image: '/assets/products/product-6.png',
-                  name: 'Makeup Lipstick',
+                  name: 'Shampoing Palmolive',
                   updatedAt: subDays(subHours(now, 3), 3).getTime()
                 },
                 {
                   id: 'bcad5524fe3a2f8f8620ceda',
                   image: '/assets/products/product-7.png',
-                  name: 'Healthcare Ritual',
+                  name: 'Shampoing Elsève',
                   updatedAt: subDays(subHours(now, 5), 6).getTime()
                 }
               ]}
@@ -151,7 +151,7 @@ const Page = () => (
             md={12}
             lg={8}
           >
-            <OverviewLatestOrders
+            {/* <OverviewLatestOrders
               orders={[
                 {
                   id: 'f69f88012978187a6c12897f',
@@ -215,7 +215,7 @@ const Page = () => (
                 }
               ]}
               sx={{ height: '100%' }}
-            />
+            /> */}
           </Grid>
         </Grid>
       </Container>

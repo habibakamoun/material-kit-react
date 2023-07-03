@@ -86,7 +86,7 @@ export const OverviewTraffic = (props) => {
 
   return (
     <Card sx={sx}>
-      <CardHeader title="Traffic Source" />
+      <CardHeader title="Product Sales " />
       <CardContent>
         <Chart
           height={300}
@@ -114,7 +114,7 @@ export const OverviewTraffic = (props) => {
                   alignItems: 'center'
                 }}
               >
-                {iconMap[label]}
+                {/* {iconMap[label]} */}
                 <Typography
                   sx={{ my: 1 }}
                   variant="h6"
